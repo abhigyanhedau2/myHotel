@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+/*
+font-family: 'Merriweather', serif;
+*/
+
+/* Margin and padding set to 0 */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header CSS*/
+header
+{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    background-color: #922c40;
+}
+
+/*Header navbar CSS*/
+header nav
+{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*Hotel Logo CSS*/
+header nav img
+{
+    width: 8vh;
+    padding: 0 1vh;
+}
+
+/*Navbar items CSS (Home, About, Contact Us, etc..)*/
+header nav ul li
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*While hover on Navbar Items CSS*/
+header nav ul li:hover
+{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color:#ffcf6e;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*Navbar items anchor tag CSS*/
+header nav ul a
+{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.admin-login
+{
+    padding-left: 425px;
+}
+
+.admin-login a
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.admin-login a:hover
+{
+    text-decoration: none;
+    list-style: none;
+    color:#ffcf6e;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Searchbar CSS */
+#searchbar
+{
+    padding: 0 0 0 50px;  
+}
+
+/* Searchbar input area CSS */
+#searchbar input
+{
+    border-radius: 5px;
+    width: 576px;
+    height: 3vh;
+    padding: 0 0 0 12px;
+}
+
+/* Search button CSS */
+#search-button
+{
+    padding: 0 0 0 12px;
+}
+
+#search-button button
+{
+    width: 50px;
+    height: 3.4vh;
+    border-radius: 5px;
+    background-color: #ffcf6e;
+    font-family: 'Merriweather', serif;
+}
+
+/* While hovering Search button CSS */
+#search-button button:hover
+{
+    width: 50px;
+    height: 3.4vh;
+    border-radius: 5px;
+    background-color: #ffda6e;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+/*Image Slider*/
+
+.image_slider
+{
+    background-image: url("images/home06.jpg");
+    height: 72vh;
+    width: 90vw;
+    
+    position: relative;
+    top: 0%;
+    left: 5%;
+    background-size: 100% 100%;
+    margin-top: 1.7vh;
+   box-shadow: 3px 5px 1px 2px grey;
+   border-radius: 3px;
+   animation:slider 18s infinite linear;
+}
+
+@keyframes slider
+{
+    0%
+    {
+        background-image: url("images/home06.jpg");
+    }
+
+    16.67%
+    {
+        background-image: url("images/home07.jpg");
+    }
+    33.33%
+    {
+        background-image: url("images/home08.jpg");
+    }
+    50%
+    {
+        background-image: url("images/home03.jpg");
+    }
+    66.67%
+    {
+        background-image: url("images/home04.jpg");
+    }
+    100%
+    {
+        background-image: url("images/home05.jpg");
+    }
+}
+
+/*Body CSS*/
+body
+{
+    background-color: #f3f3f3;
+    height: 80vh;
+}
+
+/*Main container CSS*/
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*CSS for all cards on the page*/
+.class
+{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    height: 500px;
+    background-color: white;
+    margin: 6vh 0 0 0;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    box-shadow: 5px 3px 1px 2px rgba(128, 128, 128, 0.822);
+    border-radius: 5px;
+}
+
+.class:hover
+{
+    transform: translate(-1%,-1%);
+    transition-duration: 40ms;
+}
+
+/*Card CSS*/
+.c1-img
+{
+    padding: 50px 50px;
+}
+
+.heading
+{
+    margin: 45px 0 0 25px;
+}
+
+.heading hr
+{
+    background-color: #ffcf6e;
+    width: 600px;
+    height: 1px;
+    margin: 15px 0 0 0;
+}
+
+.para
+{
+    margin: 30px 120px 0 30px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+
+a
+{
+    text-decoration: underline;
+    color: #d9b05b;
+}
+
+/*Read More on Card 1 CSS*/
+.read-more-1
+{
+    display: flex;
+    margin: 35px 125px auto auto;
+    justify-content: right;
+}
+
+/*Read More on Card 2 CSS*/
+.read-more-2
+{
+    display: flex;
+    margin: 40px 75px auto auto;
+    justify-content: right;
+}
+
+/*Read More on Card 3 CSS*/
+.read-more-3
+{
+    display: flex;
+    margin: 50px 125px auto auto;
+    justify-content: right;
+}
+
+/*Read More on Card 4 CSS*/
+.read-more-4
+{
+    display: flex;
+    margin: 25px 75px auto auto;
+    justify-content: right;
+}
+
+/*CSS for paragraphs on Card 2 and 4*/
+.c2-info .para
+{
+    margin: 30px 60px 0 90px;
+}
+
+/*CSS for heading on Card 2 and 4*/
+.c2-info .heading
+{
+    margin: 50px 0px 0 90px;
+}
+
+/*Footer CSS*/
+footer
+{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100vw;
+    height: 25vh;
+    background-color: #922c40;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.foot .menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.foot .menu ul li
+{
+    padding: 9px 20px;
+    font-size: 2vh;
+    color: white;
+}
+
+.foot .menu ul a
+{
+    text-decoration: none;
+}
+
+.foot .social h4
+{
+    text-align: center;
+    border-bottom: solid white;
+    padding: 1vh;
+}
+
+.foot .social ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 9px 10px;
+    font-size: 3vh;
+    color: white;
+    
+}
+
+.foot .social ul a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot .social ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px;
+}
+
+.foot .social ul a:hover
+{
+    transition: 0.3s;
+    color: #ffcf6e;
+}
+
+.foot .menu ul li:hover
+{
+    transition: 0.3s;
+    color: #ffcf6e;
+}

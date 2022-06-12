@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
+/*
+font-family: 'Merriweather', serif;
+*/
+
+/* Margin and padding set to 0 */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header CSS*/
+header
+{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    background-color: #922c40;
+}
+
+/*Header navbar CSS*/
+header nav
+{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*Hotel Logo CSS*/
+header nav img
+{
+    width: 8vh;
+    padding: 0 1vh;
+}
+
+/*Navbar items CSS (Home, About, Contact Us, etc..)*/
+header nav ul li
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*While hover on Navbar Items CSS*/
+header nav ul li:hover
+{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color:#ffcf6e;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*Navbar items anchor tag CSS*/
+header nav ul a
+{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/* Searchbar CSS */
+#searchbar
+{
+    padding: 0 0 0 50px;  
+}
+
+/* Searchbar input area CSS */
+#searchbar input
+{
+    border-radius: 5px;
+    width: 576px;
+    height: 3vh;
+    padding: 0 0 0 12px;
+}
+
+/* Search button CSS */
+#search-button
+{
+    padding: 0 0 0 12px;
+}
+
+#search-button button
+{
+    width: 50px;
+    height: 3.4vh;
+    border-radius: 5px;
+    background-color: #ffcf6e;
+    font-family: 'Merriweather', serif;
+}
+
+/* While hovering Search button CSS */
+#search-button button:hover
+{
+    width: 50px;
+    height: 3.4vh;
+    border-radius: 5px;
+    background-color: #ffda6e;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.admin-login
+{
+    padding-left: 425px;
+}
+
+.admin-login a
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.admin-login a:hover
+{
+    text-decoration: none;
+    list-style: none;
+    color:#ffcf6e;
+    padding: 0 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*main CSS*/
+body
+{
+    background-color: #f3f3f3;
+}
+
+/*CSS for main container having all items in it*/
+.main-container
+{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/*CSS for main inner container with white background having all the paragrpahs and images*/
+.main-inner-container
+{
+    background-color: white;
+    width: 70vw;
+}
+
+/*CSS for main heading for the page*/
+.main-inner-container h1
+{
+    font-family: 'Merriweather', serif;
+    padding: 40px 290px 20px 270px;
+}
+
+/*CSS for yellow line below the heading*/
+.main-inner-container hr
+{
+    background-color: #ffcf6e;
+    height: 1px;
+    margin: 0 200px;
+}
+
+/*CSS for all paragraphs on the page*/
+.para
+{
+    margin: 30px 120px 0 30px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    word-spacing: 5px;
+}
+
+/*CSS for 1st paragraph and image beside it*/
+.c1-info
+{
+    display: flex;
+}
+
+.c1-para
+{
+    margin: 30px 50px 0 50px;
+}
+
+.c1-img
+{
+    margin: 30px 75px 0 0;
+}
+
+/*CSS for 2nd paragraph which has only text and no image*/
+.c2-info-para
+{
+    margin: 20px 50px 0 50px;
+}
+
+/*CSS for 3rd image and paragraph beside it*/
+.c3-info
+{
+    display: flex;
+}
+
+.c3-img
+{
+    padding: 25px 50px 0px 50px;
+}
+
+.c3-para
+{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    word-spacing: 5px;
+    margin: 25px 60px 50px 0;
+}
+
+/*Footer*/
+footer
+{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: #922c40;
+    color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.foot .menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.foot .menu ul li
+{
+    padding: 9px 20px;
+    font-size: 2vh;
+    color: white;
+}
+
+.foot .menu ul a
+{
+    text-decoration: none;
+}
+
+.foot .social h4
+{
+    text-align: center;
+    border-bottom: solid white;
+    padding: 1vh;
+}
+
+.foot .social ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 9px 10px;
+    font-size: 3vh;
+    color: white;
+    
+}
+
+.foot .social ul a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.foot .social ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-top: 10px;
+}
+
+.foot .social ul a:hover
+{
+    transition: 0.4s;
+    color: #ffcf6e;
+}
+
+.foot .menu ul li:hover
+{
+    transition: 0.4s;
+    color: #ffcf6e;
+}

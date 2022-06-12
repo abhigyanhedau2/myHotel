@@ -1,0 +1,1339 @@
+@media only screen and (max-width: 1850px)
+{
+    main
+    {
+        background-color: aliceblue;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 500px;
+    }
+
+    .ambience img
+    {
+        width: 400px;
+        height: 320px;
+    }
+
+    h2
+    {
+        font-size: 25px;
+    }
+
+    .ambience-para
+    {
+        font-size: 15px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 600px;
+    }
+
+    .starters h2
+    {
+        font-size: 50px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 20px;
+    }
+
+    .starters img
+    {
+        width: 400px;
+        height: 320px;
+    }
+
+    .main-course h2
+    {
+        font-size: 50px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 20px;
+    }
+
+    .main-course img
+    {
+        width: 400px;
+        height: 320px;
+    }
+
+    .desserts h2
+    {
+        font-size: 50px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 20px;
+    }
+
+    .desserts img
+    {
+        width: 400px;
+        height: 320px;
+    }
+
+    .beverages h2
+    {
+        font-size: 50px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 20px;
+    }
+
+    .beverages img
+    {
+        width: 400px;
+        height: 320px;
+    }
+    
+}
+
+@media only screen and (max-width: 1575px)
+{
+    main
+    {
+        background-color:lavender;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #searchbar input
+    {
+        width: 450px;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 440px;
+        font-size: 25px;
+    }
+
+    .ambience img
+    {
+        width: 350px;
+        height: 280px;
+    }
+
+    h2
+    {
+        font-size: 20px;
+    }
+
+    .ambience-para
+    {
+        font-size: 12px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 475px;
+        font-size: 25px;
+    }
+
+    .starters h2
+    {
+        font-size: 40px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 17px;
+    }
+
+    .starters img
+    {
+        width: 350px;
+        height: 280px;
+    }
+
+    .main-course h2
+    {
+        font-size: 40px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 17px;
+    }
+
+    .main-course img
+    {
+        width: 350px;
+        height: 280px;
+    }
+
+    .desserts h2
+    {
+        font-size: 40px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 17px;
+    }
+
+    .desserts img
+    {
+        width: 350px;
+        height: 280px;
+    }
+    .beverages h2
+    {
+        font-size: 40px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 17px;
+    }
+
+    .beverages img
+    {
+        width: 350px;
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 1375px)
+{
+    main
+    {
+        background-color:lightsteelblue;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 440px;
+        font-size: 22px;
+    }
+
+    .ambience img
+    {
+        width: 300px;
+        height: 240px;
+    }
+
+    h2
+    {
+        font-size: 17px;
+    }
+
+    .ambience-para
+    {
+        font-size: 10px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 475px;
+        font-size: 22px;
+    }
+
+    .starters h2
+    {
+        font-size: 35px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 50px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 15px;
+    }
+
+    .starters img
+    {
+        width: 300px;
+        height: 240px;
+    }
+
+    .main-course h2
+    {
+        font-size: 35px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 50px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 15px;
+    }
+
+    .main-course img
+    {
+        width: 300px;
+        height: 240px;
+    }
+    
+    .desserts h2
+    {
+        font-size: 35px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 50px;
+    }
+    
+    .desserts-menu ol li 
+    {
+        font-size: 15px;
+    }
+    
+    .desserts img
+    {
+        width: 300px;
+        height: 240px;
+    }
+
+    .beverages h2
+    {
+        font-size: 35px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 50px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 15px;
+    }
+
+    .beverages img
+    {
+        width: 300px;
+        height: 240px;
+    }
+}
+
+@media only screen and (max-width: 1275px)
+{
+    main
+    {
+        background-color:ghostwhite;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #searchbar input
+    {
+        width: 250px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 350px;
+        font-size: 20px;
+    }
+
+    .ambience img
+    {
+        width: 250px;
+        height: 200px;
+    }
+
+    h2
+    {
+        font-size: 15px;
+    }
+
+    .ambience-para
+    {
+        font-size: 9px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 375px;
+        font-size: 20px;
+    }
+
+    .starters h2
+    {
+        font-size: 30px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 40px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 13px;
+    }
+
+    .starters img
+    {
+        width: 250px;
+        height: 200px;
+    }
+
+    .main-course h2
+    {
+        font-size: 30px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 40px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 13px;
+    }
+
+    .main-course img
+    {
+        width: 250px;
+        height: 200px;
+    }    
+
+    .desserts h2
+    {
+        font-size: 30px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 40px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 13px;
+    }
+
+    .desserts img
+    {
+        width: 250px;
+        height: 200px;
+    } 
+
+    .beverages h2
+    {
+        font-size: 30px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 40px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 13px;
+    }
+
+    .beverages img
+    {
+        width: 250px;
+        height: 200px;
+    }    
+}
+
+@media only screen and (max-width: 1100px)
+{
+    main
+    {
+        background-color:lavender;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #searchbar input
+    {
+        width: 250px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 300px;
+        font-size: 17px;
+    }
+
+    .ambience img
+    {
+        width: 200px;
+        height: 160px;
+    }
+
+    h2
+    {
+        font-size: 13px;
+    }
+
+    .ambience-para
+    {
+        font-size: 7px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 300px;
+        font-size: 17px;
+    }
+
+    .starters h2
+    {
+        font-size: 25px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 30px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 11px;
+    }
+
+    .starters img
+    {
+        width: 200px;
+        height: 160px;
+    }
+
+    .main-course h2
+    {
+        font-size: 25px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 30px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 11px;
+    }
+
+    .main-course img
+    {
+        width: 200px;
+        height: 160px;
+    }
+
+    .desserts h2
+    {
+        font-size: 25px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 30px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 11px;
+    }
+
+    .desserts img
+    {
+        width: 200px;
+        height: 160px;
+    }
+
+    .beverages h2
+    {
+        font-size: 25px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 30px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 11px;
+    }
+
+    .beverages img
+    {
+        width: 200px;
+        height: 160px;
+    }    
+}
+
+@media only screen and (max-width: 975px)
+{
+    main
+    {
+        background-color:ghostwhite;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .searchbar
+    {
+        padding: 0;
+    }
+
+    #searchbar input
+    {
+        width: 200px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 250px;
+        font-size: 15px;
+    }
+
+    .ambience img
+    {
+        width: 150px;
+        height: 120px;
+    }
+
+    h2
+    {
+        font-size: 12px;
+    }
+
+    .ambience-para
+    {
+        font-size: 5px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 250px;
+        font-size: 15px;
+    }
+
+    .starters h2
+    {
+        font-size: 22px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 9px;
+    }
+
+    .starters img
+    {
+        width: 150px;
+        height: 120px;
+    }
+
+    .main-course h2
+    {
+        font-size: 22px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 9px;
+    }
+
+    .main-course img
+    {
+        width: 150px;
+        height: 120px;
+    }
+    
+    .desserts h2
+    {
+        font-size: 22px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 9px;
+    }
+
+    .desserts img
+    {
+        width: 150px;
+        height: 120px;
+    }
+
+    .beverages h2
+    {
+        font-size: 22px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 9px;
+    }
+
+    .beverages img
+    {
+        width: 150px;
+        height: 120px;
+    }   
+}
+
+@media only screen and (max-width: 800px)
+{
+    main
+    {
+        background-color:lavender;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .searchbar
+    {
+        padding: 0;
+    }
+
+    #searchbar input
+    {
+        width: 100px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .heading h1 
+    {
+        padding: 40px 0 20px 150px;
+        font-size: 10px;
+    }
+
+    .heading hr
+    {
+        margin: 0 100px 0 100px;
+    }
+
+    .ambience img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    h2
+    {
+        font-size: 7px;
+    }
+
+    .ambience-para
+    {
+        font-size: 4px;
+    }
+
+    .menu-heading 
+    {
+        padding: 40px 0 20px 175px;
+        font-size: 10px;
+    }
+
+    .hr
+    {
+        margin: 0 100px 0 100px;
+    }
+
+    .starters h2
+    {
+        font-size: 17px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .starters-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .starters img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .main-course h2
+    {
+        font-size: 17px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .main-course-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .main-course img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -60px;
+    }
+
+    .desserts h2
+    {
+        font-size: 17px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .desserts-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .desserts img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .beverages h2
+    {
+        font-size: 17px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .beverages-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .beverages img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -60px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    main
+    {
+        background-color:ghostwhite;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .searchbar
+    {
+        padding: 0;
+    }
+
+    #searchbar input
+    {
+        width: 100px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .heading h1 
+    {
+        padding: 20px 0 20px 150px;
+        font-size: 10px;
+    }
+
+    .heading hr
+    {
+        margin: 0 100px 0 100px;
+    }
+
+    .ambience img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    h2
+    {
+        font-size: 7px;
+    }
+
+    .ambience-para p
+    {
+        padding-top: 5px;
+        font-size: 4px;
+    }
+
+    .menu-heading 
+    {
+        padding: 20px 0 20px 175px;
+        font-size: 10px;
+    }
+
+    .hr
+    {
+        margin: 0 100px 0 100px;
+    }
+
+    .starters
+    {
+        padding-top: 20px;
+    }
+
+    .starters h2
+    {
+        font-size: 17px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .starters-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .starters img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .main-course
+    {
+        padding-top: 10px;
+    }
+
+    .main-course h2
+    {
+        font-size: 17px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .main-course-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .main-course img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -80px;
+    }
+
+    .desserts
+    {
+        padding-top: 10px;
+    }
+
+    .desserts h2
+    {
+        font-size: 17px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .desserts-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .desserts img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .beverages
+    {
+        padding-top: 10px;
+    }
+
+    .beverages h2
+    {
+        font-size: 17px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .beverages-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .beverages img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -80px;
+    }
+}
+
+@media only screen and (max-width: 500px)
+{
+    main
+    {
+        background-color:lavender;
+    }
+
+    .main-container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .searchbar
+    {
+        padding: 0;
+    }
+
+    #searchbar input
+    {
+        width: 100px;
+    }
+
+    header nav ul li
+    {
+        padding: 0;
+        font-size: 10px;
+    }
+
+    .heading h1 
+    {
+        padding: 20px 0 20px 150px;
+        font-size: 10px;
+    }
+
+    .heading hr
+    {
+        margin: 0 50px 0 100px;
+    }
+
+    .ambience
+    {
+        display: flex;
+        padding: 30px 20px 0 0;
+    }
+
+    .ambience img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    h2
+    {
+        font-size: 7px;
+    }
+
+    .ambience-para p
+    {
+        padding-top: 5px;
+        font-size: 4px;
+    }
+
+    .menu-heading 
+    {
+        padding: 20px 0 20px 175px;
+        font-size: 10px;
+    }
+
+    .hr
+    {
+        margin: 0 50px 0 100px;
+    }
+
+    .starters
+    {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .starters h2
+    {
+        font-size: 17px;
+    }
+
+    .starters-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .starters-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .starters-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .starters img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .main-course
+    {
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    .main-course h2
+    {
+        font-size: 17px;
+    }
+
+    .main-course-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .main-course-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .main-course-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .main-course img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -80px;
+    }
+
+    .desserts
+    {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .desserts h2
+    {
+        font-size: 17px;
+    }
+
+    .desserts-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .desserts-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .desserts-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .desserts img
+    {
+        width: 100px;
+        height: 80px;
+    }
+
+    .beverages
+    {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+
+    .beverages h2
+    {
+        font-size: 17px;
+    }
+
+    .beverages-menu
+    {
+        padding: 0 0 0 20px;
+    }
+
+    .beverages-menu ol
+    {
+        padding: 10px 0 0 10px;
+    }
+
+    .beverages-menu ol li 
+    {
+        font-size: 6px;
+    }
+
+    .beverages img
+    {
+        width: 100px;
+        height: 80px;
+        margin-left: -80px;
+    }
+}
+
+
